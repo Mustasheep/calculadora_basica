@@ -37,7 +37,7 @@ Digite o operador: """)
         resultado = sinal(numero_1,numero_2)
         print(f"\n{numero_1} {operador} {numero_2} = {resultado}")
         numero_1 = resultado
-        nova_operacao = input(f"\nContinuar operação com {numero_1} ? Digite 's' ou 'n'  ").lower()
+        nova_operacao = input(f"\nContinuar operação com {resultado} ? Digite 's' ou 'n'  ").lower()
         if nova_operacao == "n":
             inicio = input("\nNovo cálculo? Digite 's' ou 'n'  ")
             if inicio == 's':
